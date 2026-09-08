@@ -63,7 +63,7 @@ export const rooms: Room[] = [
       {
         id: "door",
         name: "Sealed Door",
-        glyph: "⌷",
+        glyph: "▮",
         description: "A magnetic bolt holds the door. The terminal controls it.",
         isDoor: true,
       },
@@ -163,7 +163,7 @@ export const rooms: Room[] = [
       {
         id: "security-door",
         name: "Security Door",
-        glyph: "⌷",
+        glyph: "▮",
         description:
           "A brass mechanical lock above an electronic latch. Both must give way.",
         isDoor: true,
@@ -188,7 +188,7 @@ export const rooms: Room[] = [
           id: "brass-key",
           name: "Brass Key",
           description: "An old brass key. It appears to fit a mechanical lock.",
-          glyph: "⚿",
+          glyph: "🔑",
         },
         successText: "The drawer slides open. A brass key lies on felt lining.",
       },
@@ -261,7 +261,7 @@ export const rooms: Room[] = [
       {
         id: "keypad-door",
         name: "Security Keypad",
-        glyph: "⌷",
+        glyph: "▮",
         description: "The chamber door keypad. Three digits.",
         isDoor: true,
         puzzleId: "r3-keypad",
@@ -424,7 +424,7 @@ export const rooms: Room[] = [
           id: "reactor-key",
           name: "Reactor Key",
           description: "A heavy interlock key, still hot from the console slot.",
-          glyph: "⚿",
+          glyph: "🔑",
         },
         successText: "The blast door parts. Cold air, for the first time in hours.",
       },
@@ -471,7 +471,7 @@ export const rooms: Room[] = [
       {
         id: "exit",
         name: "Main Exit Door",
-        glyph: "⌷",
+        glyph: "▮",
         description: "The final keypad. Four digits. There is no second attempt worth having.",
         puzzleId: "r5-final",
         isDoor: true,
