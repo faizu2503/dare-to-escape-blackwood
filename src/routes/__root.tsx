@@ -77,11 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Dare to Escape — Blackwood Facility" },
+      {
+        name: "description",
+        content:
+          "A cinematic browser escape room. 30 minutes, 5 rooms, one way out of the Blackwood Facility.",
+      },
+      { name: "author", content: "Dare to Escape" },
+      { property: "og:title", content: "Dare to Escape — Blackwood Facility" },
+      {
+        property: "og:description",
+        content: "30 minutes. 5 rooms. One way out. Solve the facility before NEXUS locks it down.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
