@@ -517,7 +517,7 @@ export const rooms: Room[] = [
 ];
 
 export function getRoom(id: number): Room {
-  return rooms.find((r) => r.id === id) ?? rooms[0];
+  return rooms.find((r) => r.id === id) ?? (rooms[0] as Room);
 }
 
 export function getPuzzle(id: string) {
